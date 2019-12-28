@@ -1,13 +1,12 @@
 package com.company;
 
-import javax.security.auth.Subject;
+import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Objects;
 
 public class Tutor {
     String name;
-    HashMap<Subject, List<String>> disciplines = new HashMap<>();
+    HashMap<Subjects, ArrayList<String>> disciplines = new HashMap<Subjects, java.util.ArrayList<String>>();
 
     public Tutor(String name) {
         this.name = name;
